@@ -14,11 +14,11 @@ import java.lang.reflect.Field;
  */
 @SuppressLint("AppCompatCustomView")
 public class AdvancedMarqueeTextView extends TextView {
-    public static final long DEFAULT_MINIMUM_TIME_Started = 100;
+    public static final long DEFAULT_MINIMUM_TIME_STARTED = 100;
     private static final String TAG = "AdvancedMarqueeTextView";
     private OnMarqueeBannerEvents bannerEvents;
     private long lastTimeTextSet;
-    private long minimumTimeStartedMs = DEFAULT_MINIMUM_TIME_Started;
+    private long minimumTimeStartedMs = DEFAULT_MINIMUM_TIME_STARTED;
     private boolean debug = false;
 
     /*
